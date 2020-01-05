@@ -3,27 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18D5CE24E64ACF99F57EBAD1 /* libPods-FireChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C33F0D13C9479729559FA28E /* libPods-FireChat.a */; };
 		6F36F03D23C2285B00F18E80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F36F03C23C2285B00F18E80 /* AppDelegate.swift */; };
 		6F36F03F23C2285B00F18E80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F36F03E23C2285B00F18E80 /* SceneDelegate.swift */; };
-		6F36F04123C2285B00F18E80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F36F04023C2285B00F18E80 /* ViewController.swift */; };
 		6F36F04423C2285B00F18E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F36F04223C2285B00F18E80 /* Main.storyboard */; };
 		6F36F04623C2285E00F18E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F36F04523C2285E00F18E80 /* Assets.xcassets */; };
 		6F36F04923C2285E00F18E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F36F04723C2285E00F18E80 /* LaunchScreen.storyboard */; };
+		6F36F05123C228BD00F18E80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F36F05023C228BD00F18E80 /* GoogleService-Info.plist */; };
+		6F4FB64323C22CEC0047FA73 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6F4FB64223C22CEC0047FA73 /* IQKeyboardManagerSwift */; };
+		6F4FB64523C22DE90047FA73 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB64423C22DE90047FA73 /* WelcomeViewController.swift */; };
+		6F4FB64723C22E170047FA73 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB64623C22E160047FA73 /* ChatViewController.swift */; };
+		6F4FB64923C22E240047FA73 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB64823C22E230047FA73 /* LoginViewController.swift */; };
+		6F4FB64B23C22E2A0047FA73 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB64A23C22E2A0047FA73 /* RegisterViewController.swift */; };
+		6F4FB64D23C22E5E0047FA73 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB64C23C22E5E0047FA73 /* Constants.swift */; };
+		6F4FB64F23C230D70047FA73 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FB64E23C230D60047FA73 /* MessageCell.xib */; };
+		6F4FB65123C2319C0047FA73 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB65023C2319C0047FA73 /* Message.swift */; };
+		6F4FB65323C232B30047FA73 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB65223C232B30047FA73 /* MessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0648E7BBBC87E8A4FBEE9306 /* Pods-FireChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireChat.debug.xcconfig"; path = "Target Support Files/Pods-FireChat/Pods-FireChat.debug.xcconfig"; sourceTree = "<group>"; };
+		1D4296569A93D8ED6817A2E4 /* Pods-FireChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireChat.release.xcconfig"; path = "Target Support Files/Pods-FireChat/Pods-FireChat.release.xcconfig"; sourceTree = "<group>"; };
 		6F36F03923C2285B00F18E80 /* FireChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F36F03C23C2285B00F18E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F36F03E23C2285B00F18E80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6F36F04023C2285B00F18E80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6F36F04323C2285B00F18E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F36F04523C2285E00F18E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F36F04823C2285E00F18E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F36F04A23C2285E00F18E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F36F05023C228BD00F18E80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F4FB64423C22DE90047FA73 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		6F4FB64623C22E160047FA73 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		6F4FB64823C22E230047FA73 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6F4FB64A23C22E2A0047FA73 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		6F4FB64C23C22E5E0047FA73 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6F4FB64E23C230D60047FA73 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		6F4FB65023C2319C0047FA73 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6F4FB65223C232B30047FA73 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		C33F0D13C9479729559FA28E /* libPods-FireChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FireChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +52,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D5CE24E64ACF99F57EBAD1 /* libPods-FireChat.a in Frameworks */,
+				6F4FB64323C22CEC0047FA73 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52F12D5F9987C97F3B25527E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0648E7BBBC87E8A4FBEE9306 /* Pods-FireChat.debug.xcconfig */,
+				1D4296569A93D8ED6817A2E4 /* Pods-FireChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A10C2EE8EC4C1D94F998E1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C33F0D13C9479729559FA28E /* libPods-FireChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6F36F03023C2285B00F18E80 = {
 			isa = PBXGroup;
 			children = (
 				6F36F03B23C2285B00F18E80 /* FireChat */,
 				6F36F03A23C2285B00F18E80 /* Products */,
+				52F12D5F9987C97F3B25527E /* Pods */,
+				6A10C2EE8EC4C1D94F998E1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +98,21 @@
 		6F36F03B23C2285B00F18E80 /* FireChat */ = {
 			isa = PBXGroup;
 			children = (
+				6F4FB64C23C22E5E0047FA73 /* Constants.swift */,
 				6F36F03C23C2285B00F18E80 /* AppDelegate.swift */,
 				6F36F03E23C2285B00F18E80 /* SceneDelegate.swift */,
-				6F36F04023C2285B00F18E80 /* ViewController.swift */,
+				6F4FB64823C22E230047FA73 /* LoginViewController.swift */,
+				6F4FB64623C22E160047FA73 /* ChatViewController.swift */,
+				6F4FB64A23C22E2A0047FA73 /* RegisterViewController.swift */,
+				6F4FB64423C22DE90047FA73 /* WelcomeViewController.swift */,
 				6F36F04223C2285B00F18E80 /* Main.storyboard */,
+				6F4FB65223C232B30047FA73 /* MessageCell.swift */,
+				6F4FB64E23C230D60047FA73 /* MessageCell.xib */,
+				6F4FB65023C2319C0047FA73 /* Message.swift */,
 				6F36F04523C2285E00F18E80 /* Assets.xcassets */,
 				6F36F04723C2285E00F18E80 /* LaunchScreen.storyboard */,
 				6F36F04A23C2285E00F18E80 /* Info.plist */,
+				6F36F05023C228BD00F18E80 /* GoogleService-Info.plist */,
 			);
 			path = FireChat;
 			sourceTree = "<group>";
@@ -74,15 +124,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F36F04D23C2285E00F18E80 /* Build configuration list for PBXNativeTarget "FireChat" */;
 			buildPhases = (
+				7461DE4CC77563A202CB83AC /* [CP] Check Pods Manifest.lock */,
 				6F36F03523C2285B00F18E80 /* Sources */,
 				6F36F03623C2285B00F18E80 /* Frameworks */,
 				6F36F03723C2285B00F18E80 /* Resources */,
+				1A7FD92BA862ECF433490784 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FireChat;
+			packageProductDependencies = (
+				6F4FB64223C22CEC0047FA73 /* IQKeyboardManagerSwift */,
+			);
 			productName = FireChat;
 			productReference = 6F36F03923C2285B00F18E80 /* FireChat.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +166,9 @@
 				Base,
 			);
 			mainGroup = 6F36F03023C2285B00F18E80;
+			packageReferences = (
+				6F4FB64123C22CEC0047FA73 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 6F36F03A23C2285B00F18E80 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +183,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F4FB64F23C230D70047FA73 /* MessageCell.xib in Resources */,
 				6F36F04923C2285E00F18E80 /* LaunchScreen.storyboard in Resources */,
+				6F36F05123C228BD00F18E80 /* GoogleService-Info.plist in Resources */,
 				6F36F04623C2285E00F18E80 /* Assets.xcassets in Resources */,
 				6F36F04423C2285B00F18E80 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +193,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A7FD92BA862ECF433490784 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireChat/Pods-FireChat-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireChat/Pods-FireChat-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FireChat/Pods-FireChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7461DE4CC77563A202CB83AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F36F03523C2285B00F18E80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F36F04123C2285B00F18E80 /* ViewController.swift in Sources */,
+				6F4FB64923C22E240047FA73 /* LoginViewController.swift in Sources */,
+				6F4FB64B23C22E2A0047FA73 /* RegisterViewController.swift in Sources */,
+				6F4FB64523C22DE90047FA73 /* WelcomeViewController.swift in Sources */,
 				6F36F03D23C2285B00F18E80 /* AppDelegate.swift in Sources */,
+				6F4FB64723C22E170047FA73 /* ChatViewController.swift in Sources */,
+				6F4FB65123C2319C0047FA73 /* Message.swift in Sources */,
 				6F36F03F23C2285B00F18E80 /* SceneDelegate.swift in Sources */,
+				6F4FB64D23C22E5E0047FA73 /* Constants.swift in Sources */,
+				6F4FB65323C232B30047FA73 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 		};
 		6F36F04E23C2285E00F18E80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0648E7BBBC87E8A4FBEE9306 /* Pods-FireChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +409,7 @@
 		};
 		6F36F04F23C2285E00F18E80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D4296569A93D8ED6817A2E4 /* Pods-FireChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -338,6 +448,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F4FB64123C22CEC0047FA73 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F4FB64223C22CEC0047FA73 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F4FB64123C22CEC0047FA73 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6F36F03123C2285B00F18E80 /* Project object */;
 }

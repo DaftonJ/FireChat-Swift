@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  FireChat
 //
-//  Created by Dawid Jaskulski on 05/01/2020.
+//  Created by Dawid Jaskulski on 04/01/2020.
 //  Copyright © 2020 Dawid Jaskulski. All rights reserved.
 //
 
