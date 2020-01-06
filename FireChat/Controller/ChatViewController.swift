@@ -61,7 +61,8 @@ class ChatViewController: UIViewController {
         }
         
         @IBAction func sendPressed(_ sender: UIButton) {
-           
+            if messageTextfield.text != ""
+            {
             if let messageBody = messageTextfield.text, let messageSender = Auth.auth().currentUser?.email
             {
                 db.collection(K.FStore.collectionName).addDocument(data: [K.FStore.senderField: messageSender,
@@ -75,6 +76,7 @@ class ChatViewController: UIViewController {
             }
             DispatchQueue.main.async {
                 self.messageTextfield.text = ""
+            }
             }
            
         }
@@ -107,15 +109,15 @@ class ChatViewController: UIViewController {
             {
                 cell.leftImageView.isHidden = true
                 cell.rightImageView.isHidden = false
-                //cell.messageBubble.backgroundColor = UIColor(cgColor:)
-               // cell.label.textColor = UIColor(named: K.BrandColors.purple)
+                cell.messageBubble.backgroundColor = UIColor(named: K.BrandColors.meBackgroundColor)
+                cell.label.textColor = UIColor(named: K.BrandColors.meTextColor)
             }
            else
             {
                 cell.leftImageView.isHidden = false
                 cell.rightImageView.isHidden = true
-               // cell.messageBubble.backgroundColor = UIColor(named: K.BrandColors.purple)
-               // cell.label.textColor = UIColor(named: K.BrandColors.lightPurple)
+                cell.messageBubble.backgroundColor = UIColor(named: K.BrandColors.youBackgroundColor)
+               cell.label.textColor = UIColor(named: K.BrandColors.youTextColor)
             }
             return cell
         }

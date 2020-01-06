@@ -16,10 +16,10 @@ struct K {
     static let appName = "🔥FireChat"
     
     struct BrandColors {
-        static let purple = "BrandPurple"
-        static let lightPurple = "BrandLightPurple"
-        static let blue = "BrandBlue"
-        static let lighBlue = "BrandLightBlue"
+        static let youTextColor = "YouTextColor"
+        static let youBackgroundColor = "YouBackgroundColor"
+        static let meTextColor = "MeTextColor"
+        static let meBackgroundColor = "MeBackgroundColor"
     }
     
     struct FStore {
