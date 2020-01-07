@@ -1,9 +1,9 @@
 //
 //  MessageCell.swift
-//  Flash Chat iOS13
+//  Fire Chat
 //
-//  Created by Dawid Jaskulski on 10/12/2019.
-//  Copyright © 2019  All rights reserved.
+//  Created by Dawid Jaskulski on 05/01/2020.
+//  Copyright © 2020 All rights reserved.
 //
 
 import UIKit

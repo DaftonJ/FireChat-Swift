@@ -103,9 +103,6 @@
 				6F36F03E23C2285B00F18E80 /* SceneDelegate.swift */,
 				6F8045F423C237F300DDB146 /* Model */,
 				6F8045F523C2380900DDB146 /* View */,
-				6F36F04223C2285B00F18E80 /* Main.storyboard */,
-				6F4FB65223C232B30047FA73 /* MessageCell.swift */,
-				6F4FB64E23C230D60047FA73 /* MessageCell.xib */,
 				6F8045F623C2381800DDB146 /* Controller */,
 				6F36F04523C2285E00F18E80 /* Assets.xcassets */,
 				6F36F04723C2285E00F18E80 /* LaunchScreen.storyboard */,
@@ -126,6 +123,9 @@
 		6F8045F523C2380900DDB146 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6F4FB64E23C230D60047FA73 /* MessageCell.xib */,
+				6F4FB65223C232B30047FA73 /* MessageCell.swift */,
+				6F36F04223C2285B00F18E80 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
